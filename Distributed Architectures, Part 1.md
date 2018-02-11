@@ -1,18 +1,9 @@
-<html>
-<head>
- table {border: none;}
-</head>
-<table style="table">
- <tr>
-  <td width="20%"> </td>
-  <td width="60%">Laboratory #1</td>
-  <td width="20%"> </td>
-      </tr>
- </table>
+<p align="center">Slate helps you create beautiful, intelligent, responsive API documentation.</p>
+
 <h3 style="text-align: center;">Laboratory #1 </h3>
 
 <h2 style="text-align: center;">Distributed Architectures, Part 1
- </h2>
+</h2>
 
  <h4 style="text-align: center;">Jeisson Andrés Vergara Vargas, M.Sc. (c) <br> Software Architecture <br> 2018-I
 </h4>
