@@ -1,4 +1,8 @@
-<table>
+<html>
+<head>
+ table {border: none;}
+</head>
+<table style="table">
  <tr>
   <td width="20%"> </td>
   <td width="60%">Laboratory #1</td>
