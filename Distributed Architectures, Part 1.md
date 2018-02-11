@@ -3,7 +3,14 @@
   <br>
 </p>
 
-<h4 style="text-align: center;">Jeisson Andrés Vergara Vargas, M.Sc. (c) <br> Software Architecture <br> 2018-I</h4>
+<p align="center">
+  <b>Jeisson Andrés Vergara Vargas, M.Sc. (c)</b>
+  <br>
+  <b>Software Architecture</b>
+  <br>
+  <b>2018-I</b>
+</p>
+
 
 ### Pre-requisitos
 
