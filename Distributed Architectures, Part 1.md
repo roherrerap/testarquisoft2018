@@ -30,7 +30,7 @@
 
    **3.** Crear servidor Rancher:
 
-```docker-machine create -d virtualbox --virtualbox-memory "1024"  --virtualbox-cpu-count "-1" --virtualbox-disk-size "5000" --virtualbox-boot2docker-url https://github.com/boot2docker/boot2docker/releases/download/v1.12.3/boot2docker.iso  rancher-server```
+> `docker-machine create -d virtualbox --virtualbox-memory "1024"  --virtualbox-cpu-count "-1" --virtualbox-disk-size "5000" --virtualbox-boot2docker-url https://github.com/boot2docker/boot2docker/releases/download/v1.12.3/boot2docker.iso  rancher-server`
 
    **4.** Verificar máquina creada:
 > ```docker-machine ls```
