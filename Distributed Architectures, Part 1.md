@@ -43,7 +43,7 @@ asdfasdfasdfasdfsdafsdafasdfdasfsdafdasfdasfasdfasdfdasfdasfasdfsdafsdafasdfasdf
 
 > `eval $(docker-machine env rancher-server)`
 
-
+asdfasdfasdfasdfsdafsdafasdfdasfsdafdasfdasfasdfasdfdasfdasfasdfsdafsdafasdfasdfasdfsdafasdf
    **6.** Ejecutar contenedor Rancher en el puerto 8080:
 
 > `docker run -d --restart=always --name=rancher-server -p 8080:8080 rancher/server`
