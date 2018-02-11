@@ -1,7 +1,6 @@
 <p align="center">
   <img src="https://github.com/trum7/testarquisoft2018/blob/master/images/title2.png" alt="API Documentation Generator" width="400">
   <br>
-  <a href="https://travis-ci.org/lord/slate"><img src="https://travis-ci.org/lord/slate.svg?branch=master" alt="Build Status"></a>
 </p>
 
 <h4 style="text-align: center;">Jeisson Andrés Vergara Vargas, M.Sc. (c) <br> Software Architecture <br> 2018-I</h4>
