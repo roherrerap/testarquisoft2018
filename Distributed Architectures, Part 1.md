@@ -27,6 +27,7 @@
 
 ### Creación de Máquinas Virtuales
 
+<span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">INSPIRATION DAY</span>
 
    **3.** Crear servidor Rancher:
 
