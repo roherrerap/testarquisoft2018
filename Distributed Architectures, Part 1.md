@@ -4,9 +4,7 @@
   <a href="https://travis-ci.org/lord/slate"><img src="https://travis-ci.org/lord/slate.svg?branch=master" alt="Build Status"></a>
 </p>
 
-<p align="center" style = "font-size: 30pt"><b>Laboratory #1</b></p>
-<p align="center" style = "font-size: 30pt">Laboratory #1</p>
-
+<p align="center" style="font-size: 60pt"><b>Laboratory #1</b></p>
 
 <p align="center"><h3 style="text-align: center;">Laboratory #1 </h3></p>
 <p align="center"><h2 style="text-align: center;">Distributed Architectures, Part 1</h2></p>
