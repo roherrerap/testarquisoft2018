@@ -1,6 +1,10 @@
-<html>
- <center><h2 style="text-align: center;"></center>
- </h2>
+<table>
+ <tr>
+  <td width="20%"> </td>
+  <td width="60%">Laboratory #1</td>
+  <td width="20%"> </td>
+      </tr>
+ </table>
 <h3 style="text-align: center;">Laboratory #1 </h3>
 
 <h2 style="text-align: center;">Distributed Architectures, Part 1
