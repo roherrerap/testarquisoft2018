@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/trum7/testarquisoft2018/blob/master/images/title2.png" alt="API Documentation Generator" width="500">
+  <img src="https://github.com/trum7/testarquisoft2018/blob/master/images/title.png" alt="API Documentation Generator" width="500">
   <br>
 </p>
 
@@ -36,9 +36,7 @@
    ```
    **4.** Verificar máquina creada:
 
-   ```
-   docker-machine ls
-   ```
+   > ```docker-machine ls```
 
    ![alt text](./images/ls.png "Logo Title Text 1")
 
