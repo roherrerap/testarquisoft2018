@@ -36,7 +36,7 @@
    ```
    **4.** Verificar máquina creada:
 
-> **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
+> docker-machine ls
 
    > `docker-machine ls`
 
