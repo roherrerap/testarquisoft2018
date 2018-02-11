@@ -14,12 +14,12 @@
 
 ### Pre-requisitos
 
-1. Descargar e instalar Oracle VM VirtualBox (se recomienda la versión 5.0).</li>
+**1.** Descargar e instalar Oracle VM VirtualBox (se recomienda la versión 5.0).</li>
 
 
 ### Instalación de Docker
 
-2. Descargar e instalar Docker según el sistema operativo:    
+**2.** Descargar e instalar Docker según el sistema operativo:    
 * [Mac OS]( https://www.docker.com/products/docker#/mac.)
 
 * [Windows]( https://www.docker.com/products/docker#/windows.) - (Se recomienda instalar Docker Toolbox).
@@ -28,13 +28,13 @@
 ### Creación de Máquinas Virtuales
 
 
-   3. Crear servidor Rancher:
+   **3.** Crear servidor Rancher:
    ```
    docker-machine create -d virtualbox --virtualbox-memory "1024"  --virtualbox-cpu-count "-1"
 --virtualbox-disk-size "5000" --virtualbox-boot2docker-url https://github.com/boot2docker/boot2docker/releases/download/v1.12.3/boot2docker.iso  rancher-server
 
    ```
-   4. Verificar máquina creada:
+   **4.** Verificar máquina creada:
 
    ```
    docker-machine ls
