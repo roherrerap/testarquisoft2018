@@ -1,4 +1,5 @@
-<h2 style="text-align: center;">
+<html>
+h2 style="text-align: center;">
  </h2>
 <h3 style="text-align: center;">Laboratory #1 </h3>
 
@@ -145,3 +146,4 @@
    ```
    eval $(docker-machine env rancher-node1)
    ```
+</html>
