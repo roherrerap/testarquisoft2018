@@ -35,10 +35,7 @@
 
    ```
    **4.** Verificar máquina creada:
-
-> docker-machine ls
-
-   > `docker-machine ls`
+> `docker-machine ls`
 
    ![alt text](./images/ls.png "Logo Title Text 1")
 
