@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/trum7/testarquisoft2018/blob/master/images/title2.png" alt="API Documentation Generator" width="400">
+  <img src="https://github.com/trum7/testarquisoft2018/blob/master/images/title2.png" alt="API Documentation Generator" width="500">
   <br>
 </p>
 
