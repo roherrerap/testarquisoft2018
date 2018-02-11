@@ -30,20 +30,18 @@
 
    **3.** Crear servidor Rancher:
 
-> `docker-machine create -d virtualbox --virtualbox-memory "1024"  --virtualbox-cpu-count "-1"
---virtualbox-disk-size "5000" --virtualbox-boot2docker-url https://github.com/boot2docker/boot2docker/releases/download/v1.12.3/boot2docker.iso  rancher-server`
+> ```docker-machine create -d virtualbox --virtualbox-memory "1024"  --virtualbox-cpu-count "-1"
+--virtualbox-disk-size "5000" --virtualbox-boot2docker-url https://github.com/boot2docker/boot2docker/releases/download/v1.12.3/boot2docker.iso  rancher-server```
 
-asdfasdfasdfasdfsdafsdafasdfdasfsdafdasfdasfasdfasdfdasfdasfasdfsdafsdafasdfasdfasdfsdafasdf
    **4.** Verificar máquina creada:
-> `docker-machine ls`
+> ```docker-machine ls```
 
    ![alt text](./images/ls.png "Logo Title Text 1")
 
    **5.** Ubicarse en la máquina creada previamente:
 
-> `eval $(docker-machine env rancher-server)`
+> ```eval $(docker-machine env rancher-server)```
 
-asdfasdfasdfasdfsdafsdafasdfdasfsdafdasfdasfasdfasdfdasfdasfasdfsdafsdafasdfasdfasdfsdafasdf
    **6.** Ejecutar contenedor Rancher en el puerto 8080:
 
 > `docker run -d --restart=always --name=rancher-server -p 8080:8080 rancher/server`
