@@ -1,5 +1,5 @@
 <html>
-<h2 style="text-align: center;">
+ <center><h2 style="text-align: center;"></center>
  </h2>
 <h3 style="text-align: center;">Laboratory #1 </h3>
 
