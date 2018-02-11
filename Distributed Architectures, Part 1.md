@@ -46,81 +46,57 @@
 
    6. Ejecutar contenedor Rancher en el puerto 8080:
 
-   ```
-   docker run -d --restart=always --name=rancher-server -p 8080:8080 rancher/server   
-   ```
+> `docker run -d --restart=always --name=rancher-server -p 8080:8080 rancher/server`
 
    7. Acceder al panel de control de Rancher:
 
-   ```
-    http://192.168.99.100:8080/
-   ```
+> `http://192.168.99.100:8080/`
    
    ![alt text](./images/localhost.png "rancher-server")
 
    8. Crear Nodo 1
 
-   ```
-   docker-machine create -d virtualbox --virtualbox-memory "2048" --virtualbox-cpu-count "1" --virtualbox-disk-size "10000" --virtualbox-boot2docker-url https://github.com/boot2docker/boot2docker/releases/download/v1.12.3/boot2docker.iso --engine-storage-driver overlay rancher-node1   
-   ```
+> `docker-machine create -d virtualbox --virtualbox-memory "2048" --virtualbox-cpu-count "1" --virtualbox-disk-size "10000" --virtualbox-boot2docker-url https://github.com/boot2docker/boot2docker/releases/download/v1.12.3/boot2docker.iso --engine-storage-driver overlay rancher-node1`
 
    9. Verificar máquina creada:
 
-   ```
-    docker-machine ls
-   ```
-    
+> `docker-machine ls`
     
   ![alt text](./images/ls2.png "machines")
 
 
    10. Ingresar al Nodo 1 por medio de SSH:
 
-   ```
-   docker-machine ssh rancher-node1
-   ```
+> `docker-machine ssh rancher-node1`
 
    11. Ejecutar el siguiente comando:
 
-   ```
-   sudo mkdir /mnt/sda1/var/lib/rancher
-   ```
+> `sudo mkdir /mnt/sda1/var/lib/rancher`
 
    12. Ejecutar el siguiente archivo:
 
-
-   ```
-   sudo vi /var/lib/boot2docker/profile
-   ```
+> `sudo vi /var/lib/boot2docker/profile`
 
    13. Agregar las siguientes líneas al final del archivo:
 
-   ```
-   sudo mkdir /var/lib/rancher
-   sudo mount -r /mnt/sda1/var/lib/rancher /var/lib/rancher
-
-   ```
+> `sudo mkdir /var/lib/rancher
+   sudo mount -r /mnt/sda1/var/lib/rancher /var/lib/rancher`
 
    14. Guardar el archivo y ejecutar los siguientes comandos:
 
-   ```
-   source /var/lib/boot2docker/profile
-   exit
-   ```
+> `source /var/lib/boot2docker/profile
+   exit`
 
    15. Reiniciar el equipo.
 
    16. Iniciar el servidor Rancher:
 
-   ```
-   docker-machine start rancher-server
-   ```
+> `docker-machine start rancher-server`
 
    17. Iniciar el Nodo 1:
 
-   ```
-   docker-machine start rancher-node1
-   ```
+> `docker-machine start rancher-node1`
+
    18. En el panel de control de Rancher, acceder a **Infrastructure > Hosts > Add Host **, y seleccionar **Custom**:
 
    ![alt text](./images/custom.png "machines")
@@ -131,9 +107,7 @@
 
    20. Ingresar al Nodo 1 por medio de SSH:
 
-   ```
-   docker-machine ssh rancher-node1
-   ```
+> `docker-machine ssh rancher-node1`
 
    21. Ejecutar el comando copiado en el paso 19:
 
@@ -146,7 +120,5 @@
 
    23. Ubicarse en el Nodo 1, con el fin de comenzar a ejecutar los servicios en él:
 
-   ```
-   eval $(docker-machine env rancher-node1)
-   ```
-</html>
+> `eval $(docker-machine env rancher-node1)`
+
