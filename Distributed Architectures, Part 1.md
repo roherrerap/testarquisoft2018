@@ -4,7 +4,7 @@
   <a href="https://travis-ci.org/lord/slate"><img src="https://travis-ci.org/lord/slate.svg?branch=master" alt="Build Status"></a>
 </p>
 
-<p align="center" style="font-size: 30pt"><b>Laboratory #1</b></p>
+<p align="center" style = "font-size: 30pt"><b>Laboratory #1</b></p>
 
 
 <p align="center"><h3 style="text-align: center;">Laboratory #1 </h3></p>
