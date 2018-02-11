@@ -41,9 +41,8 @@
 
    5. Ubicarse en la máquina creada previamente:
 
-   ```
-   eval $(docker-machine env rancher-server)
-   ```
+> `eval $(docker-machine env rancher-server)`
+
 
    6. Ejecutar contenedor Rancher en el puerto 8080:
 
