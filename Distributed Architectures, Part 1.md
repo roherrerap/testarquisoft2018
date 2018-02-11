@@ -1,3 +1,12 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/lord/img/master/logo-slate.png" alt="Slate: API Documentation Generator" width="226">
+  <br>
+  <a href="https://travis-ci.org/lord/slate"><img src="https://travis-ci.org/lord/slate.svg?branch=master" alt="Build Status"></a>
+</p>
+
+<p align="center">Slate helps you create beautiful, intelligent, responsive API documentation.</p>
+
+
 <p align="center"><h3 style="text-align: center;">Laboratory #1 </h3></p>
 <p align="center"><h2 style="text-align: center;">Distributed Architectures, Part 1</h2></p>
 <p align="center"><h4 style="text-align: center;">Jeisson Andrés Vergara Vargas, M.Sc. (c) <br> Software Architecture <br> 2018-I</h4></p>
