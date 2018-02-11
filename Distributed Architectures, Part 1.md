@@ -5,6 +5,7 @@
 </p>
 
 <p align="center" style = "font-size: 30pt"><b>Laboratory #1</b></p>
+<p align="center" style = "font-size: 30pt">Laboratory #1</p>
 
 
 <p align="center"><h3 style="text-align: center;">Laboratory #1 </h3></p>
