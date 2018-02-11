@@ -56,7 +56,8 @@
    ```
     http://192.168.99.100:8080/
    ```
-    ![alt text](./images/localhost.png "rancher-server")
+   
+   ![alt text](./images/localhost.png "rancher-server")
 
    8. Crear Nodo 1
 
@@ -69,7 +70,10 @@
    ```
     docker-machine ls
    ```
-    ![alt text](./images/ls2.png "machines")
+    
+    
+  ![alt text](./images/ls2.png "machines")
+
 
    10. Ingresar al Nodo 1 por medio de SSH:
 
